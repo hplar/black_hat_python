@@ -22,10 +22,12 @@ def usage():
     print "Black Hat Python Net Tool"
     print
     print "Usage: bhpnet.py -t target_host -p port"
-    print "-l --listen - listen on [host]:[port] for incoming connections"
+    print "-t --target              - target host's ip-address"
+    print "-p --port                - target host's port"
+    print "-l --listen              - listen on [host]:[port] for incoming connections"
     print "-e --execute=file_to_run - execute the given file upon receiving a connection"
-    print "-c --command - initialize a command shell"
-    print "-u --upload=destination - upon receiving connection upload a file and write to[destination]"
+    print "-c --command             - initialize a command shell"
+    print "-u --upload=destination  - upon receiving connection upload a file and write to[destination]"
     print
     print
     print "Examples: "
